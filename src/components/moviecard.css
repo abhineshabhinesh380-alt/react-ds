@@ -1,0 +1,33 @@
+.movies {
+padding: 20px 30px;
+overflow : auto;
+scrollbar-width: none;
+}
+
+.movies h2 {
+color: white;
+}
+
+.movie-list {
+display: flex;
+gap: 20px;
+justify-content: left;
+
+}
+
+.movie-list img {
+width: 220px;
+height: 250px;
+object-fit: cover;
+border-radius: 8px;
+animation: reverse 0.5s ease;
+
+}
+.movie-link {
+    display: flex;
+gap: 20px;
+}
+.movie-list img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
