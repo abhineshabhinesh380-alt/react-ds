@@ -85,7 +85,8 @@ function Home() {
           <MoveCard Mtitle="Action Movies" />
 
         </div>
-
+          <div>
+      </div>
       </div>
 
     </div>

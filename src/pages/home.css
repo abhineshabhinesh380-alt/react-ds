@@ -1,23 +1,20 @@
-body {
-  background: black;
-}
-
 .netflix {
   display: flex;
   min-height: 100vh;
-   background: black;
+  background: black;
   color: white;
 }
 
 .sidebar { 
     width: 75px;
-     height: 100vh; 
-     position: fixed;
-     display: flex;
-      flex-direction: column; 
-      align-items: center;
-       justify-content: center;
-        gap: 35px; background: #080808; z-index: 100; } 
+    height: 100vh; 
+    position: fixed;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    gap: 35px; background: #080808; z-index: 100;
+ } 
         
 .sidebar button { 
     background: none;
@@ -28,18 +25,16 @@ body {
  } 
  
  .sidebar img { 
-    width: 24px; 
-    height: 24px; 
-     
+  width: 24px; 
+  height: 24px;  
 } 
 
 .sidebar button:hover img {
-    transform: scale(1.2); 
+  transform: scale(1.2); 
 } 
 
 .sidebar button.active { 
-    border-left: 3px solid #e50914; 
-    transform: scale(1.2);
+  border-left: 3px solid #e50914; 
 }
 .home-main {
   margin-left: 70px;
@@ -106,4 +101,18 @@ body {
 }
 .ss{
   color: red;
+}
+.hero {
+  position: relative;
+  height: 550px;
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
 }
