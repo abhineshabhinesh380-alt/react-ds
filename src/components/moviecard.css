@@ -13,6 +13,8 @@ display: flex;
 gap: 20px;
 justify-content: left;
 padding-bottom: 50px;
+overflow : auto;
+scrollbar-width: none;
 }
 
 .movie-list img {

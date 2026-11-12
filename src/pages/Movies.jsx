@@ -29,10 +29,14 @@ function Movies() {
 
       </div>
 
+      <div className="movie-card">
+
+ <video className="movie-background" autoPlay loop muted playsInline >
+    <source src="src/assets/tamil.mp4" type="video/mp4"/>
+  </video>
+
       <div className="movie-content">
-
-        <img src={movieLogo}alt="Movie Logo"className="movie-logo"/>
-
+      <img src={movieLogo}alt="Movie Logo"className="movie-logo"/>
         <div className="movie-buttons">
           <button className="play-btn">
             Play
@@ -114,6 +118,7 @@ function Movies() {
       
       </div>
 
+    </div>
     </div>
   );
 }
